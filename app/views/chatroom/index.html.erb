@@ -1,4 +1,26 @@
-<section>
-  <h1>You have reached the root page</h1>
-  <p>Hello</p>
+<!-- Page header -->
+<section class="mt">
+  <%= render "page_header" %>
+</section>
+
+<section class="mt">
+  <!-- Chatbox -->
+  <div class="ui two column grid">
+      <div class="twelve wide column">
+        <div class="ui fluid raised card chatbox">
+          <div class="content">
+            <%= render "chatbox" %>
+          </div>
+        </div>
+      </div>
+
+    <!-- Vertical menu -->
+    <div class="four wide column">
+      <div class="ui fluid raised card chatbox">
+        <div class="content">
+          <%= render "vertical_menu" %>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
