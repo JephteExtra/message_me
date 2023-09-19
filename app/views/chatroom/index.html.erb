@@ -9,7 +9,7 @@
       <div class="twelve wide column">
         <div class="ui fluid raised card chatbox">
           <div class="content">
-            <%= render "chatbox" %>
+            <%= render "chatbox", obj: @messages %>
           </div>
           <div class="extra content">
             <%= render "chat_input" %>
